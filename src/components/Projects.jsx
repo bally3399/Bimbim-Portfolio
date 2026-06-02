@@ -71,6 +71,15 @@ const Projects = () => {
       live: "#",
       featured: false,
       category: "Full-Stack"
+    },
+    {
+      title: "Soft Touch App - E-Commerce",
+      description: "A React Native Expo e-commerce mobile app for selling custom clothing and fashion designs. Features multi-language support (15+ languages), multi-country support (195+ countries), shopping cart, wishlist, WhatsApp-based ordering, and admin management system with Supabase backend.",
+      tags: ["React Native", "Expo", "TypeScript", "Supabase", "Zustand", "Reanimated"],
+      github: "https://github.com/bally3399",
+      live: "/application-d45f1bb2-451d-4666-b507-2a33657a5215.apk",
+      featured: true,
+      category: "Mobile"
     }
   ]
 
@@ -93,7 +102,7 @@ const Projects = () => {
             >
               <div className="flex items-start justify-between mb-3">
                 <div className="text-3xl hover:scale-125 hover:rotate-12 transition-all duration-300">
-                  {project.category === "Blockchain" ? "🔗" : project.category === "Backend" ? "⚙️" : project.category === "Frontend" ? "🎨" : "📁"}
+                  {project.category === "Blockchain" ? "🔗" : project.category === "Backend" ? "⚙️" : project.category === "Frontend" ? "🎨" : project.category === "Mobile" ? "📱" : "📁"}
                 </div>
                 <div className="flex gap-2">
                   <a 
