@@ -76,8 +76,8 @@ const Projects = () => {
       title: "Soft Touch App - E-Commerce",
       description: "A React Native Expo e-commerce mobile app for selling custom clothing and fashion designs. Features multi-language support (15+ languages), multi-country support (195+ countries), shopping cart, wishlist, WhatsApp-based ordering, and admin management system with Supabase backend.",
       tags: ["React Native", "Expo", "TypeScript", "Supabase", "Zustand", "Reanimated"],
-      github: "https://github.com/bally3399",
-      live: "/application-d45f1bb2-451d-4666-b507-2a33657a5215.apk",
+      github: "https://github.com/bally3399/soft-touch002.git",
+      live: "https://github.com/bally3399/soft-touch002.git",
       featured: true,
       category: "Mobile"
     }
