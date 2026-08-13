@@ -17,8 +17,8 @@ const Contact = () => {
         </svg>
       ),
       label: "Phone",
-      value: "09085145110",
-      link: "tel:09085145110"
+      value: "09016163661",
+      link: "tel:09016163661"
     },
     {
       icon: (
@@ -90,8 +90,8 @@ const Contact = () => {
           ))}
           
           <a
-            href="/Baliqis-Mosunmola-Sulaiman.pdf"
-            download="Baliqis-Mosunmola-Sulaiman.pdf"
+            href="/Baliqis_Mosunmola_Sulaiman_CV.pdf"
+            download="Baliqis_Mosunmola_Sulaiman_CV.pdf"
             className="flex items-center justify-center gap-3 bg-white text-black p-4 rounded-lg font-bold hover:bg-gray-200 transition-all hover:scale-110 hover:-translate-y-2 mt-6 animate-fade-in hover:shadow-2xl hover:shadow-white/30 duration-500"
           >
             <svg className="w-6 h-6 hover:scale-125 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
